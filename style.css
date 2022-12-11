@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  min-height: 100vh;
+}
+
+/*** MAIN  ***/
+
+#hero {
+  width: 1024px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+#hero img {
+  margin-bottom: 32px;
+}
+
+#hero .text h1 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  color: #3f3d56;
+  margin-bottom: 16px;
+}
+
+#hero .text h1 strong {
+  font-weight: 700;
+  color: #ee24ff;
+}
+
+#hero .text p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #828282;
+  width: 540px;
+  margin: 0 auto 32px;
+}
+
+#hero .text p strong {
+  font-weight: 700;
+  color: #3f3d56;
+}
+
+#hero .text small {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #828282;
+}
+
+/*** FOOTER ***/
+
+.line {
+  width: 391px;
+  height: 0;
+  border: 1px solid #eceff2;
+  margin: 0 auto 64px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+footer ul li {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: #3f3d56;
+}
+
+footer img {
+  width: 100%;
+}
